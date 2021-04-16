@@ -144,7 +144,7 @@ footer {
     color: var(--white-color);
 }
 
-.sec-3--download-list > div {
+.sec-3--download-list > a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,12 +158,12 @@ footer {
                 box-shadow .2s ease;
 }
 
-.sec-3--download-list > div:hover {
+.sec-3--download-list > a:hover {
     border-color: #f1f2f3;
     box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.08);
 }
 
-.sec-3--download-list > div:not(:first-child) {
+.sec-3--download-list > a:not(:first-child) {
     margin-left: 32px;
 }
 
